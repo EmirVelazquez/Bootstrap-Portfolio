@@ -27,7 +27,7 @@ p {
     color: #fff;
 }
 
-.navbar-brand, .nav-link, h1 {
+.navbar-brand, .nav-link, h1, .card-title, .footerBar {
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -41,4 +41,8 @@ p {
 
 .card {
     background: #343a40!important;
+}
+
+.card-text, p, .text-muted, .btn, .exampleFormControlTextarea1 {
+    font-family: 'IBM Plex Sans', sans-serif;
 }
