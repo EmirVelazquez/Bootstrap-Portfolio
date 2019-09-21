@@ -21,3 +21,11 @@ h1 {
 p {
     color: #fff;
 }
+
+.navbar-brand, .nav-link, h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.form-group {
+    color: #fff;
+}
