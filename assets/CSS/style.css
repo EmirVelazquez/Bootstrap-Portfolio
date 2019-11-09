@@ -86,3 +86,18 @@ p {
 .card-text, p, .text-muted, .btn, .exampleFormControlTextarea1 {
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+.card-body {
+    border: 2px solid #ffffff;
+    border-radius: 2%;
+}
+
+#clickButton {
+    background-color: rgb(212, 175, 55);
+    color: #1b1b1b;
+}
+
+#clickButton:hover {
+    background-color: #655421;
+    color: #ffffff;
+};
