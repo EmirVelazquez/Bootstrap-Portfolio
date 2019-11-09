@@ -1,20 +1,60 @@
-footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    text-align: center;
-    background: #343a40!important;
-    border-top: 8px solid #fff;
-    height: 50px;
-    color: #fff;
-    margin-top: 70%;
+/* This keeps the footer at the bottom*/
+* {
+    box-sizing: border-box;
 }
 
-.footerBar {
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.backGround {
+    background-color: #000000!important;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 3.0rem;
+    overflow: hidden;
+    display: block;
+}
+
+.container {
+    background-color: #343a40!important;
+    min-height: 50vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 3.0rem; /* Same height of footer*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1%;
+    border: 2px solid #ffffff;
+
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    margin: 0 auto;
+    height: 3.0rem;
+    background-color: #343a40!important;
+    border-top: 2px solid #ffffff;
+    text-align: center;
+}
+                                                                                
+#footerAnchor {
+    color: #ffffff;
+    font-size: 12px;
 }
 
+/* Custom CSS Changes */
 body {
     background-color: rgb(22, 22, 22)
 }

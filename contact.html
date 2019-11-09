@@ -18,68 +18,59 @@
 </head>
 
 <body>
-  <!-- Navigation Bar Goes here, from Bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Emir Velazquez</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="backGround">
+    <!-- Navigation Bar Goes here, from Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Emir Velazquez</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <br>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="mainHeader">
-          <h1>Contact</h1>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="mainHeader">
+            <h1>Contact</h1>
+          </div>
         </div>
       </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Your Name:</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Your Email:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comments:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
     </div>
-    <form>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Your Name:</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Your Email:</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@example.com">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Comments:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </form>
+    <footer id="footer">
+      <a id="footerAnchor">&copy 2019 Emir Velazquez</a>
+    </footer>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h1></h1>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="footerBar">
-      &copy 2019 Emir Velazquez
-    </div>
-  </footer>
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
