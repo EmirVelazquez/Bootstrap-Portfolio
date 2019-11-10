@@ -114,3 +114,24 @@ p {
 .detailsBox {
     font-size: 18px;
 }
+
+.mainHeader {
+    text-align: center;
+}
+
+#logoContainer {
+    text-align: center;
+}
+
+#gitHubLogo {
+    margin-right: 50px;
+}
+
+#linkedInLogo {
+    margin-left: 50px;
+}
+
+.gitLogoPic {
+    height: 100px;
+    width: 102px;
+}
