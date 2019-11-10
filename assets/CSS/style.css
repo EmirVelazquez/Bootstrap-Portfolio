@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    background-color: #343a40!important;
+    background-color: rgb(31, 29, 29);
     min-height: 50vh; /* will cover the 100% of viewport */
     overflow: hidden;
     display: block;
@@ -100,4 +100,17 @@ p {
 #clickButton:hover {
     background-color: #655421;
     color: #ffffff;
-};
+}
+
+#emailLink {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+#emailLink:hover {
+    color: #ffffff;
+}
+
+.detailsBox {
+    font-size: 18px;
+}
