@@ -139,3 +139,23 @@ p {
 #gitHubSmall {
     float: right;
 }
+
+.pdfContainer {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdfFile {
+    width: 100%;
+    height: 80%;
+}
+
+#formContainer {
+    width: 80%;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+}
