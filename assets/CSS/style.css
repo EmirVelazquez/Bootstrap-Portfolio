@@ -135,3 +135,7 @@ p {
     height: 100px;
     width: 102px;
 }
+
+#gitHubSmall {
+    float: right;
+}
