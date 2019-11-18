@@ -9,6 +9,7 @@ $(document).ready(function () {
     //This block revomes active state from all links if my name is clicked
     $("#navName").on("click", function () {
         $("#navBar .navbar-nav").find("li.active").removeClass("active");
+        $("#aboutLink").addClass("active");
     });
 
 
