@@ -13,6 +13,33 @@ $(document).ready(function () {
     });
 
 
+    //Back to top button
+    //Placed inside variable
+    var topButton = $("#topButton");
 
+    // User scrolls down 20px, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            // topButton.style.display = "block";
+            topButton.show();
+        } else {
+            // topButton.style.display = "none";
+            topButton.hide();
+        }
+    };
+    // User clicks button then code block executes topFunction
+    $("#topButton").on("click", function () {
+        topFunction();
+        $("#navBar .navbar-nav").find("li.active").removeClass("active");
+        $("#aboutLink").addClass("active");
+    });
+
+    // Function to scroll back to top 
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 
 }); 
