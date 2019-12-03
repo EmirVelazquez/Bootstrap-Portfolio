@@ -181,7 +181,7 @@ p {
     background-color: #d4af37; /* Set a background color */
     color: #1b1b1b; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
+    padding: 10px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
