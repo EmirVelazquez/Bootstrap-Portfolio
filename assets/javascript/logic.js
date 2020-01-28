@@ -1,6 +1,6 @@
 //Master function that will only execute after the DOM has loaded
 $(document).ready(function () {
-    //Custom Logic for Nav
+    //============================NAV LOGIC BELOW=====================================//
     //This block adds and removes active state on links
     $("#navBar .navbar-nav a").on("click", function () {
         $("#navBar .navbar-nav").find("li.active").removeClass("active");
@@ -11,15 +11,23 @@ $(document).ready(function () {
         $("#navBar .navbar-nav").find("li.active").removeClass("active");
         $("#aboutLink").addClass("active");
     });
+    //============================NAV LOGIC ABOVE=====================================//
 
-
-    //Back to top button
-    //Placed inside variable
+    //=======================BACK TO TOP BUTTON BELLOW================================//
+    //Place jQuery reference button in variable
     var topButton = $("#topButton");
+
+    // User clicks button then code block executes topFunction
+    topButton.on("click", function () {
+        topFunction();
+        $("#navBar .navbar-nav").find("li.active").removeClass("active");
+        $("#aboutLink").addClass("active");
+    });
 
     // User scrolls down 20px, show the button
     window.onscroll = function () { scrollFunction() };
 
+    // Helper function for displaying button
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             // topButton.style.display = "block";
@@ -29,17 +37,13 @@ $(document).ready(function () {
             topButton.hide();
         }
     };
-    // User clicks button then code block executes topFunction
-    $("#topButton").on("click", function () {
-        topFunction();
-        $("#navBar .navbar-nav").find("li.active").removeClass("active");
-        $("#aboutLink").addClass("active");
-    });
-
-    // Function to scroll back to top 
+    // Helper function to handle scrolling to top animation
     function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-
+        $("html, body").animate(
+            {
+                scrollTop: $("#topPage").offset().top
+            }, "1000"
+        );
+    };
+    //=======================BACK TO TOP BUTTON ABOVE=================================//
 }); 

@@ -15,6 +15,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Orbitron:900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6de492cf9a.js" crossorigin="anonymous"></script>
     <title>Emir Velazquez</title>
 </head>
 
@@ -90,7 +92,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Latest Project</h5>
                             <p class="card-text">Most recent project worked on.</p>
-                            <a href="https://github.com/EmirVelazquez/bamazon" target="_blank" class="btn btn-warning"
+                            <a href="https://ancient-beach-76628.herokuapp.com/" target="_blank" class="btn btn-warning"
                                 id="clickButton">Click Here</a>
                         </div>
                     </div>
@@ -291,7 +293,7 @@
                         <h1>Send Me A Message</h1>
                     </div>
                 </div>
-                <form id="formContainer">
+                <form id="formContainer" action="mailto:emirleovelazquez@gmail.com" method="post" enctype="text/plain">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Your Name:</label>
                         <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Last">
@@ -306,19 +308,20 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         <br>
                         <button type="submit" class="btn btn-warning" id="clickButton">Submit</button>
+                        <button type="reset" class="btn btn-warning" id="clickButton">Reset</button>
                     </div>
                 </form>
             </div>
         </div>
-        <button id="topButton" class="btn btn-warning" title="Go back to top">Back to Top</button>
+        <button id="topButton" class="btn btn-warning" title="Back To Top"><i
+                class="fas fa-chevron-circle-up fa-2x"></i></button>
         <footer id="footer">
             <a id="footerAnchor">&copy 2019 Emir Velazquez</a>
         </footer>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Popper.js from bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
