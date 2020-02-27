@@ -1,478 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Reset CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- Custom CSS Changes -->
-    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Orbitron:900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/6de492cf9a.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Emir Velazquez</title>
-  </head>
 
-  <body>
-    <div class="backGround" id="topPage">
-      <!-- Navigation Bar Goes here, from Bootstrap -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
-        <a class="navbar-brand" id="navName" href="#topPage">Emir Velazquez</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item" id="aboutLink">
-              <a class="nav-link" href="#topPage"
-                >About<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolioSection">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contactSection">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#messageSection">Message</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <br />
-      <br />
-      <br />
-      <!-- About me pic, paragraph, and Latest Project Container -->
-      <div class="container" id="aboutSection">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="mainHeader">
-              <h1>About Me</h1>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="profilePic">
-              <img
-                src="assets/images/CloseUpSmall.png"
-                alt="Profile Pic"
-                class="img-thumbnail"
-              />
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="aboutParagraph">
-              <p>
-                I believe that life is about learning as much as we can, so if a
-                person feels like there is no more room to learn then they are
-                no longer living. This is the motto that I have followed
-                throughout my whole life and it has allowed me to learn from any
-                opportunity I've ever been presented. The reason I became
-                interested in software development is because I've always had a
-                passion for building things. When I was younger I used to build
-                all sorts of toys with random pieces of metal and plastics that
-                I would find in my town. I also got involved with a lot of art
-                mediums at a young age, especially sculpting.
-              </p>
-              <p>
-                Eventually, I decided to take both my love for art sculpting and
-                technology by learning how to write code. I found it to be very
-                similar to making a sculpture with my hands, but instead now I
-                build with programming languages and a computer. It is the most
-                challenging and rewarding knowledge I've ever had the pleasure
-                to be introduced to and work towards mastering. I am excited to
-                be able to join a development team soon and continue to expand
-                my knowledge. I am never fearful of change or being taught
-                something by a higher skilled individual, which is great in the
-                ever changing technology field.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="card text-white bg-dark mb-2" style="width: 12rem;">
-              <div class="card-body">
-                <h5 class="card-title">Latest Project</h5>
-                <p class="card-text">Most recent project worked on.</p>
-                <a
-                  href="https://blooming-beach-68349.herokuapp.com/"
-                  target="_blank"
-                  class="btn btn-warning"
-                  id="clickButton"
-                  >Click Here</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <!-- Portfolio Container -->
-      <div class="container" id="portfolioSection">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="mainHeader">
-              <h1>Portfolio</h1>
-            </div>
-          </div>
-        </div>
-        <div class="container-pic">
-          <div class="row">
-            <div class="card-deck">
-              <div class="card">
-                <a
-                  href="https://github.com/EmirVelazquez/Liri-Node-App"
-                  target="_blank"
-                  ><img
-                    src="assets/images/nodejs400.jpeg"
-                    class="card-img-top"
-                    alt="Word Guess Game"
-                /></a>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- Custom CSS Changes -->
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/6de492cf9a.js" crossorigin="anonymous"></script>
+  <title>Emir Velazquez</title>
+</head>
 
-                <div class="card-body">
-                  <h5 class="card-title">Liri Node App</h5>
-                  <p class="card-text">
-                    LIRI is a Language Interpretation and Recognition Interface.
-                    LIRI is a command line node app that takes in parameters and
-                    gives you back data.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Project Completed 11/17/2019</small>
-                  <a
-                    href="https://github.com/EmirVelazquez/Liri-Node-App"
-                    target="_blank"
-                    ><img id="gitHubSmall" src="assets/images/GitHub32px.png"
-                  /></a>
-                </div>
-              </div>
-              <div class="card">
-                <a
-                  href="https://emirvelazquez.github.io/unit-4-game/"
-                  target="_blank"
-                  ><img
-                    src="assets/images/LoZ.jpg"
-                    class="card-img-top"
-                    alt="Rupee Collector"
-                /></a>
-
-                <div class="card-body">
-                  <h5 class="card-title">Rupee Collector</h5>
-                  <p class="card-text">
-                    A game app inspired by Nintendo's The Legend of Zelda
-                    series. The user clicks on rupee's with different values to
-                    attempt to match the random number. If the user matches they
-                    win, if they go over the random number they lose.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Project Completed 10/04/2019</small>
-                  <a
-                    href="https://github.com/EmirVelazquez/unit-4-game"
-                    target="_blank"
-                    ><img id="gitHubSmall" src="assets/images/GitHub32px.png"
-                  /></a>
-                </div>
-              </div>
-              <div class="card">
-                <a
-                  href="https://emirvelazquez.github.io/TriviaGame/"
-                  target="_blank"
-                  ><img
-                    src="assets/images/controller400.png"
-                    class="card-img-top"
-                    alt="Video Game Trivia"
-                /></a>
-
-                <div class="card-body">
-                  <h5 class="card-title">Video Game Trivia</h5>
-                  <p class="card-text">
-                    A trivia app insipired by games from the 70's to the
-                    present. It consists of questions with multiple choice
-                    answers that the user has to answer before time expires. At
-                    the end it displays the user's results and also a reset
-                    button to start the app again.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Project Completed 10/11/2019</small>
-                  <a
-                    href="https://github.com/EmirVelazquez/TriviaGame"
-                    target="_blank"
-                    ><img id="gitHubSmall" src="assets/images/GitHub32px.png"
-                  /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-          <div class="row">
-            <div class="card-deck">
-              <div class="card">
-                <a
-                  href="https://emirvelazquez.github.io/gifTastic/"
-                  target="_blank"
-                  ><img
-                    src="assets/images/giphyLogo.png"
-                    class="card-img-top"
-                    alt="Giphy logo"
-                /></a>
-
-                <div class="card-body">
-                  <h5 class="card-title">Gif Generator</h5>
-                  <p class="card-text">
-                    App that allows for the user to display still gif's by
-                    clicking the nav buttons. User can also add their own
-                    buttons and pause and stop gif by clicking on it. All of
-                    this gif data is being fetched from GIPHY API.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Project Completed 10/20/2019</small>
-                  <a
-                    href="https://github.com/EmirVelazquez/gifTastic"
-                    target="_blank"
-                    ><img id="gitHubSmall" src="assets/images/GitHub32px.png"
-                  /></a>
-                </div>
-              </div>
-              <div class="card">
-                <a
-                  href="https://emirvelazquez.github.io/TrainScheduler/"
-                  target="_blank"
-                  ><img
-                    src="assets/images/Firebase400.png"
-                    class="card-img-top"
-                    alt="Built with Firebase"
-                /></a>
-
-                <div class="card-body">
-                  <h5 class="card-title">Train Scheduler App</h5>
-                  <p class="card-text">
-                    App that incorporates Google Firebase to host arrival and
-                    departure data. App retrieves and manipulates this
-                    information with Moment.js. App provides up-to-date
-                    information about various trains, namely their arrival times
-                    and how many minutes remain until they arrive at their
-                    station.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Project Completed 10/26/2019</small>
-                  <a
-                    href="https://github.com/EmirVelazquez/TrainScheduler"
-                    target="_blank"
-                    ><img id="gitHubSmall" src="assets/images/GitHub32px.png"
-                  /></a>
-                </div>
-              </div>
-              <div class="card">
-                <a
-                  href="https://graysonm23.github.io/Taste-Buds/"
-                  target="_blank"
-                  ><img
-                    src="assets/images/fivePlates.jpg"
-                    class="card-img-top"
-                    alt="Five Plates with Different Dishes"
-                /></a>
-
-                <div class="card-body">
-                  <h5 class="card-title">Taste Buds</h5>
-                  <p class="card-text">
-                    Collaborative API Project that allows users to search for a
-                    food dish. Contributed Google YouTube Api that fetches data
-                    relevant to user search and creates a YouTube How-To player
-                    on the app. App Also fetches from Bing Maps Api and a
-                    recipes Api.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Project 11/02/2019</small>
-                  <a
-                    href="https://github.com/graysonm23/Taste-Buds"
-                    target="_blank"
-                    ><img id="gitHubSmall" src="assets/images/GitHub32px.png"
-                  /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <!-- Contact Container Here -->
-      <div class="container" id="contactSection">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="mainHeader">
-              <h1>Contact</h1>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="detailsBox">
-              <p id="telePhoneFont">Telephone: (214)-603-9112</p>
-              <p id="emailFont">
-                Email Me:
-                <a
-                  id="emailLink"
-                  href="mailto:emirleovelazquez@gmail.com? subject=subject text"
-                  >emirleovelazquez@gmail.com</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="mainHeader">
-              <h1>Social Media</h1>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12" id="logoContainer">
-            <a
-              id="gitHubLogo"
-              href="https://github.com/EmirVelazquez"
-              target="_blank"
-              ><img class="gitLogoPic" src="assets/images/GitHub120px.png"
-            /></a>
-
-            <a
-              id="linkedInLogo"
-              href="https://www.linkedin.com/in/emir-velazquez-35560b196/"
-              target="_blank"
-              ><img class="linkedInLogoPic" src="assets/images/LinkedIn120.png"
-            /></a>
-          </div>
-        </div>
-        <br />
-        <br />
-        <div class="row">
-          <div class="col-sm-12" class="testYes">
-            <div class="mainHeader">
-              <h1>Resume</h1>
-            </div>
-            <div class="pdfContainer">
-              <embed
-                class="pdfFile"
-                src="assets/files/ELV-RESUME.pdf#toolbar=1&navpanes=0&scrollbar=0"
-                type="application/pdf"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <!-- Send Message Container -->
-      <div class="container" id="messageSection">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="mainHeader">
-              <h1>Send Me A Message</h1>
-            </div>
-          </div>
-          <form
-            id="formContainer"
-            action="mailto:emirleovelazquez@gmail.com"
-            method="post"
-            enctype="text/plain"
-          >
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Your Name:</label>
-              <input
-                type="name"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="First Last"
-              />
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Your Email:</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="youremail@example.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Comments:</label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-              <br />
-              <button type="submit" class="btn btn-warning" id="clickButton">
-                Submit
-              </button>
-              <button type="reset" class="btn btn-warning" id="clickButton">
-                Reset
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <button id="topButton" class="btn btn-warning" title="Back To Top">
-        <i class="fas fa-chevron-circle-up fa-2x"></i>
+<body>
+  <div class="backGround" id="topPage">
+    <!-- Navigation Bar Goes here, from Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
+      <a class="navbar-brand" id="navName" href="#topPage">Emir Velazquez</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <footer id="footer">
-        <a id="footerAnchor">&copy 2019 Emir Velazquez</a>
-      </footer>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item" id="aboutLink">
+            <a class="nav-link" href="#topPage">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolioSection">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactSection">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#messageSection">Message</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <!-- About me pic, paragraph, and Latest Project Container -->
+    <div class="container" id="aboutSection">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="mainHeader">
+            <h1>About Me</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="profilePic">
+            <img src="assets/images/CloseUpSmall.png" alt="Profile Pic" class="img-thumbnail" />
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="aboutParagraph">
+            <p>
+              Hello, my name is Emir Velazquez and I'm a full stack web developer. I am a believer of design thinking
+              and have a humble belief that I can always learn something from anyone. Most of my time is spent either
+              working on a new project or learning something new. I also enjoy spending time with my spouse and dogs,
+              reading a good book, or traveling around the world.
+            </p>
+            <p>Have any new ideas or projects you want help with? Contact me and lets get it done!</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-white bg-dark mb-2" style="width: 12rem;">
+            <div class="card-body">
+              <h5 class="card-title">Latest Project</h5>
+              <p class="card-text">Most recent project worked on.</p>
+              <a href="https://frozen-dusk-16908.herokuapp.com/" target="_blank" class="btn btn-warning"
+                id="clickButton">Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <!-- Popper.js from bootstrap -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Bootstrap Js -->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <!-- My JavaScript Link Here -->
-    <script src="assets/javascript/logic.js" type="text/javascript"></script>
-  </body>
+    <br />
+    <!-- Portfolio Container -->
+    <div class="container" id="portfolioSection">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="mainHeader">
+            <h1>Portfolio</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container-pic">
+        <div class="row">
+          <div class="card-deck">
+            <div class="card">
+              <a href="https://github.com/EmirVelazquez/Liri-Node-App" target="_blank"><img
+                  src="assets/images/nodejs400.jpeg" class="card-img-top" alt="Word Guess Game" /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Liri Node App</h5>
+                <p class="card-text">
+                  LIRI is a Language Interpretation and Recognition Interface.
+                  LIRI is a command line node app that takes in parameters and
+                  gives you back data.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project Completed 11/17/2019</small>
+                <a href="https://github.com/EmirVelazquez/Liri-Node-App" target="_blank"><img id="gitHubSmall"
+                    src="assets/images/GitHub32px.png" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://emirvelazquez.github.io/unit-4-game/" target="_blank"><img src="assets/images/LoZ.jpg"
+                  class="card-img-top" alt="Rupee Collector" /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Rupee Collector</h5>
+                <p class="card-text">
+                  A game app inspired by Nintendo's The Legend of Zelda
+                  series. The user clicks on rupee's with different values to
+                  attempt to match the random number. If the user matches they
+                  win, if they go over the random number they lose.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project Completed 10/04/2019</small>
+                <a href="https://github.com/EmirVelazquez/unit-4-game" target="_blank"><img id="gitHubSmall"
+                    src="assets/images/GitHub32px.png" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://emirvelazquez.github.io/TriviaGame/" target="_blank"><img
+                  src="assets/images/controller400.png" class="card-img-top" alt="Video Game Trivia" /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Video Game Trivia</h5>
+                <p class="card-text">
+                  A trivia app insipired by games from the 70's to the
+                  present. It consists of questions with multiple choice
+                  answers that the user has to answer before time expires. At
+                  the end it displays the user's results and also a reset
+                  button to start the app again.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project Completed 10/11/2019</small>
+                <a href="https://github.com/EmirVelazquez/TriviaGame" target="_blank"><img id="gitHubSmall"
+                    src="assets/images/GitHub32px.png" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="card-deck">
+            <div class="card">
+              <a href="https://emirvelazquez.github.io/gifTastic/" target="_blank"><img
+                  src="assets/images/giphyLogo.png" class="card-img-top" alt="Giphy logo" /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Gif Generator</h5>
+                <p class="card-text">
+                  App that allows for the user to display still gif's by
+                  clicking the nav buttons. User can also add their own
+                  buttons and pause and stop gif by clicking on it. All of
+                  this gif data is being fetched from GIPHY API.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project Completed 10/20/2019</small>
+                <a href="https://github.com/EmirVelazquez/gifTastic" target="_blank"><img id="gitHubSmall"
+                    src="assets/images/GitHub32px.png" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://emirvelazquez.github.io/TrainScheduler/" target="_blank"><img
+                  src="assets/images/Firebase400.png" class="card-img-top" alt="Built with Firebase" /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Train Scheduler App</h5>
+                <p class="card-text">
+                  App that incorporates Google Firebase to host arrival and
+                  departure data. App retrieves and manipulates this
+                  information with Moment.js. App provides up-to-date
+                  information about various trains, namely their arrival times
+                  and how many minutes remain until they arrive at their
+                  station.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project Completed 10/26/2019</small>
+                <a href="https://github.com/EmirVelazquez/TrainScheduler" target="_blank"><img id="gitHubSmall"
+                    src="assets/images/GitHub32px.png" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://graysonm23.github.io/Taste-Buds/" target="_blank"><img src="assets/images/fivePlates.jpg"
+                  class="card-img-top" alt="Five Plates with Different Dishes" /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Taste Buds</h5>
+                <p class="card-text">
+                  Collaborative API Project that allows users to search for a
+                  food dish. Contributed Google YouTube Api that fetches data
+                  relevant to user search and creates a YouTube How-To player
+                  on the app. App Also fetches from Bing Maps Api and a
+                  recipes Api.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project 11/02/2019</small>
+                <a href="https://github.com/graysonm23/Taste-Buds" target="_blank"><img id="gitHubSmall"
+                    src="assets/images/GitHub32px.png" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- Contact Container Here -->
+    <div class="container" id="contactSection">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="mainHeader">
+            <h1>Contact</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="detailsBox">
+            <p id="telePhoneFont">Telephone: (214)-603-9112</p>
+            <p id="emailFont">
+              Email Me:
+              <a id="emailLink"
+                href="mailto:emirleovelazquez@gmail.com? subject=subject text">emirleovelazquez@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="mainHeader">
+            <h1>Social Media</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" id="logoContainer">
+          <a id="gitHubLogo" href="https://github.com/EmirVelazquez" target="_blank"><img class="gitLogoPic"
+              src="assets/images/GitHub120px.png" /></a>
+
+          <a id="linkedInLogo" href="https://www.linkedin.com/in/emir-velazquez-35560b196/" target="_blank"><img
+              class="linkedInLogoPic" src="assets/images/LinkedIn120.png" /></a>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-sm-12" class="testYes">
+          <div class="mainHeader">
+            <h1>Resume</h1>
+          </div>
+          <div class="pdfContainer">
+            <embed class="pdfFile" src="assets/files/emirResume.pdf#toolbar=1&navpanes=0&scrollbar=0"
+              type="application/pdf" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- Send Message Container -->
+    <div class="container" id="messageSection">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="mainHeader">
+            <h1>Send Me A Message</h1>
+          </div>
+        </div>
+        <form id="formContainer" action="mailto:emirleovelazquez@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Your Name:</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Last" />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Your Email:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="youremail@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Comments:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <br />
+            <button type="submit" class="btn btn-warning" id="clickButton">
+              Submit
+            </button>
+            <button type="reset" class="btn btn-warning" id="clickButton">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <button id="topButton" class="btn btn-warning" title="Back To Top">
+      <i class="fas fa-chevron-circle-up fa-2x"></i>
+    </button>
+    <footer id="footer">
+      <a id="footerAnchor">&copy 2019 Emir Velazquez</a>
+    </footer>
+  </div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Popper.js from bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap Js -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- My JavaScript Link Here -->
+  <script src="assets/javascript/logic.js" type="text/javascript"></script>
+</body>
+
 </html>

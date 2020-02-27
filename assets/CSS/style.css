@@ -15,7 +15,7 @@ body {
 }
 
 .backGround {
-    background-color: #000000!important;
+    background-color: #121212;
     min-height: 100vh;
     position: relative;
     padding-bottom: 3.0rem;
@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    background-color: rgb(31, 29, 29);
+    background-color: #272727;
     min-height: 50vh; /* will cover the 100% of viewport */
     overflow: hidden;
     display: block;
@@ -68,7 +68,17 @@ p {
 }
 
 .navbar-brand, .nav-link, h1, .card-title, .footerBar {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mainHeader {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.aboutParagraph {
+    font-size: 18px;
 }
 
 .form-group {
